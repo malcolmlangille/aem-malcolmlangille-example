@@ -1,0 +1,1 @@
+mvn -PautoInstallPackage clean install
