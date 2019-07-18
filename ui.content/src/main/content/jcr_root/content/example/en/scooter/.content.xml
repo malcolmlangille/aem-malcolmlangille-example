@@ -2,11 +2,11 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-17T13:43:31.796-04:00"
+        cq:lastModified="{Date}2019-07-18T10:38:49.646-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/example/settings/wcm/templates/landing-page-template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Home"
+        jcr:title="Scooter"
         sling:resourceType="example/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
@@ -20,9 +20,4 @@
                 sling:resourceType="wcm/foundation/components/responsivegrid"/>
         </root>
     </jcr:content>
-    <first-article/>
-    <cars/>
-    <bikes/>
-    <scooter/>
-    <skateboard/>
 </jcr:root>

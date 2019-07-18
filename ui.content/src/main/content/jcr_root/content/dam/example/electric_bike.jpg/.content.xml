@@ -28,5 +28,14 @@
             tiff:ImageLength="{Long}640"
             tiff:ImageWidth="{Long}960"/>
         <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2019-07-17T14:32:56.180-04:00"/>
+        </usages>
     </jcr:content>
 </jcr:root>

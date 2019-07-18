@@ -2,10 +2,11 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-18T14:38:11.680-04:00"
+        cq:lastModified="{Date}2019-07-18T10:41:21.890-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/example/settings/wcm/templates/article-page-template"
         jcr:primaryType="cq:PageContent"
+        jcr:title="Electric Cars"
         sling:resourceType="example/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
@@ -43,10 +44,11 @@
                 <image
                     jcr:created="{Date}2019-07-18T10:20:25.307-04:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-07-18T10:20:30.960-04:00"
+                    jcr:lastModified="{Date}2019-07-18T10:41:21.888-04:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="example/components/content/image"/>
+                    sling:resourceType="example/components/content/image"
+                    fileReference="/content/dam/example/electric_car.jpg"/>
                 <title
                     jcr:created="{Date}2019-07-18T10:22:19.479-04:00"
                     jcr:createdBy="admin"
@@ -77,21 +79,12 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <list
-                        cq:styleIds="[1563390298022]"
                         jcr:created="{Date}2019-07-18T10:36:15.485-04:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-07-18T14:37:52.624-04:00"
+                        jcr:lastModified="{Date}2019-07-18T10:36:15.485-04:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="example/components/content/list"
-                        childDepth="1"
-                        linkItems="true"
-                        listFrom="static"
-                        pages="[/content/example/en,/content/example/en/cars,/content/example/en/bikes,/content/example/en/scooter]"
-                        showDescription="false"
-                        showModificationDate="true"
-                        sortOrder="asc"
-                        tagsMatch="any"/>
+                        sling:resourceType="example/components/content/list"/>
                 </responsivegrid_357242886>
             </responsivegrid>
         </root>
