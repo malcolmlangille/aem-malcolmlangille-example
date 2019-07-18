@@ -1,0 +1,27 @@
+/* In Author Mode change header position from fixed to static */
+
+
+@import (reference) "/apps/example/clientlibs/clientlib-site/less/variables.less";
+
+ .example-header {
+    position: static;
+    @media (max-width: @screen-medium) {
+        position: static;
+    }
+}
+
+body {
+    .root {
+        padding-top:0px;
+        @media (max-width: @screen-medium) {
+            padding-top:0px;     
+        }
+    }
+}
+
+body.example-page--home {
+
+    .example-header {
+        position: fixed;
+    }
+}
