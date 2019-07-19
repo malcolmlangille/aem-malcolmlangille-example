@@ -53,7 +53,9 @@
                         allowedTypes="[h1,h2,h3,h4,h5,h6]"
                         linkDisabled="false"
                         type="h1">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0 jcr:primaryType="nt:unstructured">
                                 <cq:styles jcr:primaryType="nt:unstructured">
@@ -214,7 +216,9 @@
                         hideCurrent="false"
                         showHidden="false"
                         startLevel="2">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_1563459713189>
                 </breadcrumb>
                 <image jcr:primaryType="nt:unstructured">
@@ -233,7 +237,9 @@
                         jpegQuality="{Long}100"
                         titleValueFromDAM="false"
                         uuidDisabled="false">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                         <plugins jcr:primaryType="nt:unstructured">
                             <crop
                                 jcr:primaryType="nt:unstructured"
@@ -267,6 +273,23 @@
                     </policy_1563459636921>
                 </image>
             </content>
+            <structure jcr:primaryType="nt:unstructured">
+                <navigation jcr:primaryType="nt:unstructured">
+                    <policy_1563554247535
+                        cq:styleDefaultClasses="cmp-navigation--footer"
+                        jcr:lastModified="{Date}2019-07-19T12:42:32.169-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Example Navigation - Footer"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        collectAllPages="false"
+                        navigationRoot="/content/example/en"
+                        skipNavigationRoot="true"
+                        structureDepth="1">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1563554247535>
+                </navigation>
+            </structure>
         </components>
     </example>
     <wcm jcr:primaryType="nt:unstructured">
@@ -375,7 +398,9 @@
                         jcr:title="Example Content"
                         sling:resourceType="wcm/core/components/policy/policy"
                         components="[/libs/wcm/foundation/components/responsivegrid,/apps/example/components/content/breadcrumb,/apps/example/components/content/contentfragment,/apps/example/components/content/image,/apps/example/components/content/list,/apps/example/components/content/text,/apps/example/components/content/title]">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_167881996056300>
                     <policy_168287175290500
                         jcr:lastModified="{Date}2019-07-18T10:32:26.385-04:00"
@@ -384,8 +409,20 @@
                         jcr:title="Example Article Sidebar"
                         sling:resourceType="wcm/core/components/policy/policy"
                         components="[/apps/example/components/content/image,/apps/example/components/content/list,/apps/example/components/content/text,/apps/example/components/content/title]">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_168287175290500>
+                    <policy_17300344071700
+                        cq:styleDefaultClasses="cmp-layout-container--footer"
+                        jcr:lastModified="{Date}2019-07-19T12:42:20.000-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Example Footer"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:example.Content,group:example.Structure]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_17300344071700>
                 </responsivegrid>
             </components>
         </foundation>
