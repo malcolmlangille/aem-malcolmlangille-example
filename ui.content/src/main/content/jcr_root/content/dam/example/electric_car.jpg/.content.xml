@@ -1,42 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="18b570ad-297e-4697-b365-d3e2adedb715">
-    <jcr:content
-        dam:assetState="processed"
-        jcr:lastModified="{Date}2019-07-17T13:49:33.701-04:00"
-        jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
-        <metadata
-            dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-07-17T13:49:33.134-04:00"
-            dam:Fileformat="JPEG"
-            dam:MIMEtype="image/jpeg"
-            dam:Numberofimages="{Long}1"
-            dam:Numberoftextualcomments="{Long}0"
-            dam:Physicalheightindpi="{Long}300"
-            dam:Physicalheightininches="{Decimal}2.133333444595337"
-            dam:Physicalwidthindpi="{Long}300"
-            dam:Physicalwidthininches="{Decimal}3.200000047683716"
-            dam:Progressive="no"
-            dam:sha1="78df1fce323e3b932e071b541acdbbeea59f7152"
-            dam:size="{Long}238925"
-            dc:format="image/jpeg"
-            jcr:mixinTypes="[cq:Taggable]"
-            jcr:primaryType="nt:unstructured"
-            tiff:ImageLength="{Long}640"
-            tiff:ImageWidth="{Long}960"/>
-        <related jcr:primaryType="nt:unstructured"/>
-        <usages
-            dam:score="{Long}3"
-            jcr:primaryType="nt:unstructured"
-            usedBy="[aem]">
-            <aem
-                jcr:primaryType="nt:unstructured"
-                count="{Long}3"
-                lastUsed="{Date}2019-07-18T10:41:22.066-04:00"/>
-        </usages>
-    </jcr:content>
-</jcr:root>
+    jcr:uuid="18b570ad-297e-4697-b365-d3e2adedb715"/>
