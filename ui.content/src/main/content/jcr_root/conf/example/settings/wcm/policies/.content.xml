@@ -286,7 +286,9 @@
                         navigationRoot="/content/example/en"
                         skipNavigationRoot="true"
                         structureDepth="1">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_1563554247535>
                     <policy_19511118115900
                         jcr:lastModified="{Date}2019-07-19T13:15:47.504-04:00"
@@ -298,7 +300,9 @@
                         navigationRoot="/content/example/en"
                         skipNavigationRoot="true"
                         structureDepth="1">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_19511118115900>
                 </navigation>
                 <header jcr:primaryType="nt:unstructured">
@@ -309,7 +313,9 @@
                         jcr:title="Example Header"
                         sling:resourceType="wcm/core/components/policy/policy"
                         rootPath="/content/example/en">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_1563556221364>
                 </header>
                 <search jcr:primaryType="nt:unstructured">
@@ -322,7 +328,9 @@
                         resultsSize="5"
                         searchRoot="/content/example/en"
                         searchTermMinimumLength="3">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_1563556433283>
                 </search>
             </structure>
@@ -457,7 +465,9 @@
                         jcr:title="Example Footer"
                         sling:resourceType="wcm/core/components/policy/policy"
                         components="[group:example.Content,group:example.Structure]">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_17300344071700>
                 </responsivegrid>
             </components>

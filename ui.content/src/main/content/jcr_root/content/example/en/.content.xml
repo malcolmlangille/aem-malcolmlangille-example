@@ -20,9 +20,9 @@
                 sling:resourceType="wcm/foundation/components/responsivegrid"/>
         </root>
     </jcr:content>
-    <first-article/>
     <cars/>
     <bikes/>
     <scooter/>
     <skateboard/>
+    <first-article/>
 </jcr:root>

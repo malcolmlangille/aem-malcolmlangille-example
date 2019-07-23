@@ -6,9 +6,9 @@
         jcr:title="Example Site">
         <folderThumbnail/>
     </jcr:content>
-    <asset.jpg/>
-    <electric_car.jpg/>
     <electric_bike.jpg/>
-    <electric_skateboard.png/>
+    <electric_car.jpg/>
     <electric_scooter.jpg/>
+    <electric_skateboard.png/>
+    <asset.jpg/>
 </jcr:root>
