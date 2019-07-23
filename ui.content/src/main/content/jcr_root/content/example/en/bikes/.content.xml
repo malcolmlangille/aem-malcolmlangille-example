@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-23T13:32:52.735-04:00"
+        cq:lastModified="{Date}2019-07-23T15:08:13.650-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/example/settings/wcm/templates/landing-page-template"
         jcr:primaryType="cq:PageContent"
@@ -19,7 +19,60 @@
                 jcr:lastModified="{Date}2019-07-17T13:40:48.767-04:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <responsivegrid
+                    cq:styleIds="[1563894265299]"
+                    jcr:created="{Date}2019-07-23T15:08:00.097-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-23T15:08:00.097-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured"/>
+                    <teaser_1471416485
+                        cq:styleIds="[1563901716960]"
+                        jcr:created="{Date}2019-07-23T15:04:41.380-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-23T15:06:42.635-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="example/components/content/teaser"
+                        actionsEnabled="true"
+                        descriptionFromPage="true"
+                        fileReference="/content/dam/example/lime_bike.jpg"
+                        textIsRich="true"
+                        titleFromPage="true">
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/example/en/bikes/lime_bike"
+                                text="Read More"/>
+                        </actions>
+                    </teaser_1471416485>
+                    <teaser
+                        cq:styleIds="[1563901716960]"
+                        jcr:created="{Date}2019-07-23T15:04:37.997-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-23T15:06:29.276-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="example/components/content/teaser"
+                        actionsEnabled="true"
+                        descriptionFromPage="true"
+                        fileReference="/content/dam/example/uber_bike.jpg"
+                        textIsRich="true"
+                        titleFromPage="true">
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/example/en/bikes/uber_bike"
+                                text="Read More"/>
+                        </actions>
+                    </teaser>
+                </responsivegrid>
+            </responsivegrid>
         </root>
     </jcr:content>
+    <uber_bike/>
+    <lime_bike/>
 </jcr:root>

@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-23T13:33:17.725-04:00"
+        cq:lastModified="{Date}2019-07-23T15:15:31.372-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/example/settings/wcm/templates/landing-page-template"
         jcr:primaryType="cq:PageContent"
@@ -19,7 +19,72 @@
                 jcr:lastModified="{Date}2019-07-17T13:40:48.767-04:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <responsivegrid
+                    cq:styleIds="[1563894265299]"
+                    jcr:created="{Date}2019-07-23T15:13:40.046-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-23T15:13:40.046-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured"/>
+                    <teaser
+                        cq:styleIds="[1563901716960]"
+                        jcr:created="{Date}2019-07-23T15:13:43.947-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-23T15:15:14.129-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="example/components/content/teaser"
+                        actionsEnabled="true"
+                        descriptionFromPage="true"
+                        fileReference="/content/dam/example/boosted_skateboard.jpg"
+                        textIsRich="true"
+                        titleFromPage="true">
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/example/en/skateboard/boosted_board"
+                                text="Read More"/>
+                        </actions>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </teaser>
+                    <teaser_1702980788
+                        cq:styleIds="[1563901716960]"
+                        jcr:created="{Date}2019-07-23T15:13:46.294-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-23T15:15:31.370-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="example/components/content/teaser"
+                        actionsEnabled="true"
+                        descriptionFromPage="true"
+                        fileReference="/content/dam/example/swagboard_skateboard.jpg"
+                        textIsRich="true"
+                        titleFromPage="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/example/en/skateboard/swagboard"
+                                text="Read More"/>
+                        </actions>
+                    </teaser_1702980788>
+                </responsivegrid>
+            </responsivegrid>
         </root>
     </jcr:content>
+    <swagboard/>
+    <boosted_board/>
 </jcr:root>
