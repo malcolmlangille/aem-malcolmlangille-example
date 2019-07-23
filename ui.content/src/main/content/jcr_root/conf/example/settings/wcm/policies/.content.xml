@@ -272,6 +272,27 @@
                         </plugins>
                     </policy_1563459636921>
                 </image>
+                <teaser jcr:primaryType="nt:unstructured">
+                    <policy_1563901684318
+                        jcr:lastModified="{Date}2019-07-23T13:08:55.266-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Example Teaser"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-teaser--card"
+                                        cq:styleId="1563901716960"
+                                        cq:styleLabel="card"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1563901684318>
+                </teaser>
             </content>
             <structure jcr:primaryType="nt:unstructured">
                 <navigation jcr:primaryType="nt:unstructured">
@@ -369,12 +390,12 @@
                             mergeList="{Boolean}true"/>
                     </content-default>
                     <policy_92226818638600
-                        jcr:lastModified="{Date}2019-07-18T09:22:59.628-04:00"
+                        jcr:lastModified="{Date}2019-07-23T11:02:19.570-04:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Example Content"
+                        jcr:title="Example Content - Two"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/example/components/content/breadcrumb,/apps/example/components/content/contentfragment,/apps/example/components/content/image,/apps/example/components/content/list,/apps/example/components/content/text,/apps/example/components/content/title]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/example/components/content/breadcrumb,/apps/example/components/content/contentfragment,/apps/example/components/content/image,/apps/example/components/content/list,/apps/example/components/content/teaser,/apps/example/components/content/text,/apps/example/components/content/title]">
                         <jcr:content
                             cq:lastReplicated="{Date}2019-07-18T09:42:13.682-04:00"
                             cq:lastReplicatedBy="admin"
@@ -436,15 +457,30 @@
                             jcr:primaryType="nt:unstructured"/>
                     </policy_164899468621200>
                     <policy_167881996056300
-                        jcr:lastModified="{Date}2019-07-18T10:27:12.087-04:00"
+                        jcr:lastModified="{Date}2019-07-23T11:04:43.529-04:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Example Content"
+                        jcr:title="Example Content - Three"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/example/components/content/breadcrumb,/apps/example/components/content/contentfragment,/apps/example/components/content/image,/apps/example/components/content/list,/apps/example/components/content/text,/apps/example/components/content/title]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/example/components/content/breadcrumb,/apps/example/components/content/contentfragment,/apps/example/components/content/image,/apps/example/components/content/list,/apps/example/components/content/teaser,/apps/example/components/content/text,/apps/example/components/content/title]">
                         <jcr:content
                             jcr:mixinTypes="[cq:ReplicationStatus]"
                             jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleId="1563894262655"
+                                        cq:styleLabel="Full Width"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-layout-container--fixed"
+                                        cq:styleId="1563894265299"
+                                        cq:styleLabel="Fixed Width"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
                     </policy_167881996056300>
                     <policy_168287175290500
                         jcr:lastModified="{Date}2019-07-18T10:32:26.385-04:00"

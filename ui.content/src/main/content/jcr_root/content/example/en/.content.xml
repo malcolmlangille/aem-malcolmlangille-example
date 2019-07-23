@@ -2,12 +2,14 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-17T13:43:31.796-04:00"
+        cq:lastModified="{Date}2019-07-23T13:28:36.281-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/example/settings/wcm/templates/landing-page-template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Home"
-        sling:resourceType="example/components/structure/page">
+        jcr:title="Future of Transportation"
+        sling:resourceType="example/components/structure/page"
+        navTitle="Future of Transportation"
+        pageTitle="Future of Transportation">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
@@ -17,12 +19,127 @@
                 jcr:lastModified="{Date}2019-07-17T13:40:48.767-04:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <responsivegrid
+                    cq:styleIds="[1563894265299]"
+                    jcr:created="{Date}2019-07-23T11:05:40.570-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-23T11:05:40.570-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured"/>
+                    <teaser
+                        cq:styleIds="[1563901716960]"
+                        jcr:created="{Date}2019-07-23T11:12:38.796-04:00"
+                        jcr:createdBy="admin"
+                        jcr:description="&lt;p>Check out this great electric car company&lt;/p>&#xd;&#xa;"
+                        jcr:lastModified="{Date}2019-07-23T13:12:48.655-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="example/components/content/teaser"
+                        actionsEnabled="true"
+                        descriptionFromPage="true"
+                        fileReference="/content/dam/example/electric_car.jpg"
+                        textIsRich="true"
+                        titleFromPage="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/example/en/cars"
+                                text="Read More"/>
+                        </actions>
+                    </teaser>
+                    <teaser_483682334
+                        cq:styleIds="[1563901716960]"
+                        jcr:created="{Date}2019-07-23T11:22:59.279-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-23T13:16:00.891-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="example/components/content/teaser"
+                        actionsEnabled="true"
+                        descriptionFromPage="true"
+                        fileReference="/content/dam/example/electric_bike.jpg"
+                        textIsRich="true"
+                        titleFromPage="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/example/en/bikes"
+                                text="Read More"/>
+                        </actions>
+                    </teaser_483682334>
+                    <teaser_1129308709
+                        cq:styleIds="[1563901716960]"
+                        jcr:created="{Date}2019-07-23T11:26:16.044-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-23T11:26:56.386-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="example/components/content/teaser"
+                        actionsEnabled="true"
+                        descriptionFromPage="true"
+                        fileReference="/content/dam/example/electric_skateboard.png"
+                        textIsRich="true"
+                        titleFromPage="true">
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/example/en/skateboard"
+                                text="Read More"/>
+                        </actions>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </teaser_1129308709>
+                    <teaser_630109320
+                        cq:styleIds="[1563901716960]"
+                        jcr:created="{Date}2019-07-23T11:24:16.927-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-23T11:25:59.211-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="example/components/content/teaser"
+                        actionsEnabled="true"
+                        descriptionFromPage="true"
+                        fileReference="/content/dam/example/electric_scooter.jpg"
+                        textIsRich="true"
+                        titleFromPage="true">
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/example/en/scooter"
+                                text="Read More"/>
+                        </actions>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="6"/>
+                        </cq:responsive>
+                    </teaser_630109320>
+                </responsivegrid>
+            </responsivegrid>
         </root>
     </jcr:content>
     <cars/>
     <bikes/>
     <scooter/>
     <skateboard/>
-    <first-article/>
 </jcr:root>

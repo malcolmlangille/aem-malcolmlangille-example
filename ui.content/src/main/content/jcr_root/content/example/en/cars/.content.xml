@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-18T10:38:03.133-04:00"
+        cq:lastModified="{Date}2019-07-23T13:32:17.180-04:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2019-07-19T10:36:36.431-04:00"
         cq:lastReplicatedBy="admin"
@@ -11,9 +11,11 @@
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Cars"
+        jcr:title="Electric Cars"
         jcr:uuid="3f5b0783-c69f-4a4a-8a3a-e1bcbdb7c2e1"
-        sling:resourceType="example/components/structure/page">
+        sling:resourceType="example/components/structure/page"
+        navTitle="Cars"
+        pageTitle="Electric Cars">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">

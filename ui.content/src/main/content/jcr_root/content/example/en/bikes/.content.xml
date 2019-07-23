@@ -2,12 +2,14 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-18T10:38:28.578-04:00"
+        cq:lastModified="{Date}2019-07-23T13:32:52.735-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/example/settings/wcm/templates/landing-page-template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Bikes"
-        sling:resourceType="example/components/structure/page">
+        jcr:title="Electric Bikes"
+        sling:resourceType="example/components/structure/page"
+        navTitle="Bikes"
+        pageTitle="Electric Bikes">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">

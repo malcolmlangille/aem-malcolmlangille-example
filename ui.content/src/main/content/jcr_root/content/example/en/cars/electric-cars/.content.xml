@@ -2,12 +2,15 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-18T10:41:21.890-04:00"
+        cq:lastModified="{Date}2019-07-23T13:21:07.828-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/example/settings/wcm/templates/article-page-template"
+        jcr:description="An electric car is an automobile that is propelled by one or more electric motors, using energy stored in rechargeable batteries. The first practical electric cars were produced in the 1880s.[1][2] Electric cars were popular in the late 19th century and early 20th century, until advances in internal combustion engines, electric starters in particular, and mass production of cheaper gasoline vehicles led to a decline in the use of electric drive vehicles.&#xd;&#xa;&#xd;&#xa;From 2008, a renaissance in electric vehicle manufacturing occurred due to advances in batteries, illnesses, and deaths due to air pollution,[3] and the desire to reduce greenhouse gas emissions.[4][5] Several national and local governments have established government incentives for plug-in electric vehicles|tax credits, subsidies, and other incentives to promote the introduction and adoption in the mass market of new electric vehicles, often depending on battery size, their electric range and purchase price. The current maximum tax credit allowed by the US Government is US$7,500 per car.[6] Compared with internal combustion engine cars, electric cars are quieter, have no tailpipe emissions, and lower emissions in general.[7]&#xd;&#xa;&#xd;&#xa;Charging an electric car can be done at a variety of charging stations, these charging stations can be installed in both houses and public areas.[8] The two all-time best selling electric cars, the Nissan Leaf and the Tesla Model S, have EPA-rated ranges reaching up to 243 km (151 miles) and 600 km (370 miles) respectively.[9][10][11] The Leaf is the best-selling highway-capable electric car ever with more than 400,000 units sold,[12] followed by the Tesla Model S with over 400,000 units sold worldwide by June 2019.[13][14][15][16][17]&#xd;&#xa;&#xd;&#xa;As of December 2018, there were about 5.3 million light-duty all-electric and plug-in hybrid vehicles in use around the world.[18] Despite the rapid growth experienced, the global stock of plug-in electric cars represented just about 1 out of every 250 vehicles (0.40%) on the world's roads by the end of 2018.[19] The plug-in car market is shifting towards fully electric battery vehicles, as the global ratio between annual sales of battery BEVs and PHEVs went from 56:44 in 2012, to 60:40 in 2015, and rose to 69:31 in 2018.[20][21]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Electric Cars"
-        sling:resourceType="example/components/structure/page">
+        sling:resourceType="example/components/structure/page"
+        navTitle="Electric Cars"
+        pageTitle="Electric Cars">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
