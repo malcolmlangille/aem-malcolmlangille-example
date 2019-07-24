@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2019-07-19T13:10:15.063-04:00"
+        cq:lastModified="{Date}2019-07-24T09:43:47.969-04:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2019-07-18T09:42:13.682-04:00"
         cq:lastReplicatedBy="admin"
@@ -73,10 +73,27 @@
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
+                            behavior="hide"
+                            offset="0"
+                            width="1"/>
+                    </cq:responsive>
+                </responsivegrid>
+                <text
+                    jcr:created="{Date}2019-07-24T09:20:46.752-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-24T09:21:24.468-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="example/components/content/text"
+                    text="&lt;p>&lt;b>Lorem Ipsum&lt;/b>&amp;nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
                             offset="0"
                             width="9"/>
                     </cq:responsive>
-                </responsivegrid>
+                </text>
                 <responsivegrid_357242886
                     jcr:created="{Date}2019-07-18T10:29:46.001-04:00"
                     jcr:createdBy="admin"

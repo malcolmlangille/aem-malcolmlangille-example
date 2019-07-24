@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-23T15:17:27.234-04:00"
+        cq:lastModified="{Date}2019-07-24T08:54:45.480-04:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2019-07-19T10:36:36.431-04:00"
         cq:lastReplicatedBy="admin"
@@ -39,7 +39,7 @@
                         cq:styleIds="[1563901716960]"
                         jcr:created="{Date}2019-07-23T13:48:07.647-04:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-07-23T13:59:47.853-04:00"
+                        jcr:lastModified="{Date}2019-07-24T08:54:45.466-04:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="example/components/content/teaser"
@@ -57,7 +57,7 @@
                         <actions jcr:primaryType="nt:unstructured">
                             <item0
                                 jcr:primaryType="nt:unstructured"
-                                link="/content/example/en/cars/electric-cars"
+                                link="/content/example/en/cars/tesla"
                                 text="Read More"/>
                         </actions>
                     </teaser>
@@ -118,7 +118,7 @@
             </responsivegrid>
         </root>
     </jcr:content>
-    <electric-cars/>
     <e-tron/>
     <Leaf/>
+    <tesla/>
 </jcr:root>

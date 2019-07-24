@@ -457,12 +457,12 @@
                             jcr:primaryType="nt:unstructured"/>
                     </policy_164899468621200>
                     <policy_167881996056300
-                        jcr:lastModified="{Date}2019-07-23T11:04:43.529-04:00"
+                        jcr:lastModified="{Date}2019-07-24T09:14:20.784-04:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Example Content - Three"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/example/components/content/breadcrumb,/apps/example/components/content/contentfragment,/apps/example/components/content/image,/apps/example/components/content/list,/apps/example/components/content/teaser,/apps/example/components/content/text,/apps/example/components/content/title]">
+                        components="[/libs/dam/cfm/components/contentfragment,/libs/wcm/foundation/components/responsivegrid,/apps/example/components/content/breadcrumb,/apps/example/components/content/contentfragment,/apps/example/components/content/image,/apps/example/components/content/list,/apps/example/components/content/teaser,/apps/example/components/content/text,/apps/example/components/content/title]">
                         <jcr:content
                             jcr:mixinTypes="[cq:ReplicationStatus]"
                             jcr:primaryType="nt:unstructured"/>
