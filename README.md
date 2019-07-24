@@ -11,8 +11,10 @@ If you have a running AEM instance you can build and package the whole project a
 
     mvn clean install -PautoInstallPackage
     
-## Maven settings
+## Screenshots
 
-The project comes with the auto-public repository configured. To setup the repository in your Maven settings, refer to:
+![Home Page](screenshot_1_home.png)
+![Cars Landing Page](screenshot_2_cars.png)
+![Cars Tesla Article](screenshot_3_car_tesla.png)
 
-    http://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html
+Malcolm Langille
