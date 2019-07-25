@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-24T08:54:45.480-04:00"
+        cq:lastModified="{Date}2019-07-25T10:02:24.066-04:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2019-07-19T10:36:36.431-04:00"
         cq:lastReplicatedBy="admin"
@@ -39,20 +39,20 @@
                         cq:styleIds="[1563901716960]"
                         jcr:created="{Date}2019-07-23T13:48:07.647-04:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-07-24T08:54:45.466-04:00"
+                        jcr:lastModified="{Date}2019-07-25T10:02:14.376-04:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="example/components/content/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="true"
-                        fileReference="/content/dam/example/tesla.jpg"
+                        fileReference="/content/dam/example/tesla_wide.jpg"
                         textIsRich="true"
                         titleFromPage="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
-                                width="6"/>
+                                width="12"/>
                         </cq:responsive>
                         <actions jcr:primaryType="nt:unstructured">
                             <item0
@@ -65,13 +65,13 @@
                         cq:styleIds="[1563901716960]"
                         jcr:created="{Date}2019-07-23T13:59:58.797-04:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-07-23T14:07:24.211-04:00"
+                        jcr:lastModified="{Date}2019-07-25T10:02:24.062-04:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="example/components/content/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="true"
-                        fileReference="/content/dam/example/etron.jpg"
+                        fileReference="/content/dam/example/etron_wide.jpg"
                         linkURL="/content/example/en/cars/e-tron"
                         textIsRich="true"
                         titleFromPage="true">
@@ -79,7 +79,7 @@
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
-                                width="6"/>
+                                width="12"/>
                         </cq:responsive>
                         <actions jcr:primaryType="nt:unstructured">
                             <item0
@@ -121,5 +121,4 @@
     <e-tron/>
     <Leaf/>
     <tesla/>
-    <electric-cars/>
 </jcr:root>

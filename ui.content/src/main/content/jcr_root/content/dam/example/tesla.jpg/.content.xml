@@ -1,43 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:isCheckedOut="{Boolean}true"
-    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="1f493cfc-f1cc-45ed-8fc4-1246ebd8ddf9">
+    jcr:uuid="638425fb-67e0-42a6-84b6-55ede2d74fa5">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-07-23T13:58:47.566-04:00"
+        jcr:lastModified="{Date}2019-07-25T09:56:22.613-04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-07-23T13:58:47.057-04:00"
+            dam:extracted="{Date}2019-07-25T09:56:21.501-04:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
             dam:Numberoftextualcomments="{Long}0"
-            dam:Physicalheightindpi="{Long}72"
-            dam:Physicalheightininches="{Decimal}12.5"
-            dam:Physicalwidthindpi="{Long}72"
-            dam:Physicalwidthininches="{Decimal}18.75"
-            dam:Progressive="no"
-            dam:sha1="162805df6dd287ab3b812242286aef1e42a21e44"
-            dam:size="{Long}129078"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="yes"
+            dam:sha1="9ffefde9bae57a851fedca22e2cd965dd982280f"
+            dam:size="{Long}88071"
             dc:format="image/jpeg"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
-            tiff:ImageLength="{Long}900"
-            tiff:ImageWidth="{Long}1350"
-            tiff:Orientation="{Long}1"/>
+            tiff:ImageLength="{Long}800"
+            tiff:ImageWidth="{Long}1200"/>
         <related jcr:primaryType="nt:unstructured"/>
-        <usages
-            dam:score="{Long}1"
-            jcr:primaryType="nt:unstructured"
-            usedBy="[aem]">
-            <aem
-                jcr:primaryType="nt:unstructured"
-                count="{Long}1"
-                lastUsed="{Date}2019-07-24T09:10:27.436-04:00"/>
-        </usages>
     </jcr:content>
 </jcr:root>

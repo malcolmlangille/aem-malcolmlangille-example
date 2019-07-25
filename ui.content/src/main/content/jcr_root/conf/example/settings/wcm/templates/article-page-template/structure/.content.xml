@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2019-07-24T09:43:47.969-04:00"
+        cq:lastModified="{Date}2019-07-25T10:00:46.465-04:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2019-07-18T09:42:13.682-04:00"
         cq:lastReplicatedBy="admin"
@@ -78,6 +78,46 @@
                             width="1"/>
                     </cq:responsive>
                 </responsivegrid>
+                <responsivegrid_333139610
+                    jcr:created="{Date}2019-07-25T09:52:17.188-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-25T09:52:17.188-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="9"/>
+                    </cq:responsive>
+                    <text
+                        jcr:created="{Date}2019-07-24T09:20:46.752-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-24T09:21:24.468-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="example/components/content/text"
+                        text="&lt;p>&lt;b>Lorem Ipsum&lt;/b>&amp;nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>&#xa;"
+                        textIsRich="true">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="9"/>
+                        </cq:responsive>
+                    </text>
+                    <byline
+                        jcr:created="{Date}2019-07-25T09:55:20.966-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-07-25T09:58:46.001-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="example/components/content/byline"
+                        fileReference="/content/dam/example/malcolm_langille.jpg"
+                        name="Malcolm Langille"
+                        occupations="AEM Developer"/>
+                </responsivegrid_333139610>
                 <responsivegrid_357242886
                     jcr:created="{Date}2019-07-18T10:29:46.001-04:00"
                     jcr:createdBy="admin"
@@ -93,22 +133,6 @@
                             width="3"/>
                     </cq:responsive>
                 </responsivegrid_357242886>
-                <text
-                    jcr:created="{Date}2019-07-24T09:20:46.752-04:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-07-24T09:21:24.468-04:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="example/components/content/text"
-                    text="&lt;p>&lt;b>Lorem Ipsum&lt;/b>&amp;nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>&#xa;"
-                    textIsRich="true">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="9"/>
-                    </cq:responsive>
-                </text>
             </responsivegrid>
             <responsivegrid_1068802299
                 jcr:created="{Date}2019-07-19T12:35:19.030-04:00"

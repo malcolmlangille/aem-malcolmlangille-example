@@ -505,6 +505,15 @@
                             jcr:mixinTypes="[cq:ReplicationStatus]"
                             jcr:primaryType="nt:unstructured"/>
                     </policy_17300344071700>
+                    <policy_81509180657000
+                        jcr:lastModified="{Date}2019-07-25T09:55:06.652-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Example Byline"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:example.Content,group:example.Content Form,group:example.Structure]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_81509180657000>
                 </responsivegrid>
             </components>
         </foundation>

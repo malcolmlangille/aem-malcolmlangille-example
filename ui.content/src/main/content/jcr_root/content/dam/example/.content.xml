@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="sling:OrderedFolder">
     <jcr:content
+        dam:noThumbnail="{Boolean}true"
         jcr:primaryType="nt:unstructured"
         jcr:title="Example Site">
         <folderThumbnail/>
     </jcr:content>
+    <asset.jpg/>
+    <boosted_skateboard.jpg/>
     <electric_bike.jpg/>
     <electric_car.jpg/>
     <electric_scooter.jpg/>
-    <asset.jpg/>
     <electric_skateboard.png/>
     <etron.jpg/>
+    <etron_wide.jpg/>
     <leaf.jpg/>
-    <boosted_skateboard.jpg/>
     <lime_bike.jpg/>
     <lime_scooter.jpg/>
     <swagboard_skateboard.jpg/>
+    <tesla.jpg/>
+    <tesla_wide.jpg/>
     <uber_bike.jpg/>
     <uber_scooter.jpg/>
-    <tesla.jpg/>
+    <malcolm_langille.jpg/>
 </jcr:root>

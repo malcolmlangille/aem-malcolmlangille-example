@@ -2,15 +2,15 @@
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="ff55a902-ff5f-4223-87eb-d6bf8d1aef9f">
+    jcr:uuid="a3d038b8-a16a-4ffc-a5f0-2a75de3b08f0">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-07-23T14:58:34.393-04:00"
+        jcr:lastModified="{Date}2019-07-25T09:56:22.901-04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-07-23T14:58:33.106-04:00"
+            dam:extracted="{Date}2019-07-25T09:56:22.418-04:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -28,5 +28,14 @@
             tiff:ImageLength="{Long}1366"
             tiff:ImageWidth="{Long}2048"/>
         <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2019-07-25T10:04:52.362-04:00"/>
+        </usages>
     </jcr:content>
 </jcr:root>
