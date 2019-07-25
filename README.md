@@ -11,10 +11,16 @@ If you have a running AEM instance you can build and package the whole project a
 
     mvn clean install -PautoInstallPackage
     
-## Screenshots
+## Home Page
 
 ![Home Page](screenshot_1_home.png)
+
+## Landing Page
+
 ![Cars Landing Page](screenshot_2_cars.png)
+
+## Article Page
+
 ![Cars Tesla Article](screenshot_3_car_tesla.png)
 
 Malcolm Langille
