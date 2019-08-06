@@ -279,7 +279,9 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Example Teaser"
                         sling:resourceType="wcm/core/components/policy/policy">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0 jcr:primaryType="nt:unstructured">
                                 <cq:styles jcr:primaryType="nt:unstructured">
@@ -512,7 +514,9 @@
                         jcr:title="Example Byline"
                         sling:resourceType="wcm/core/components/policy/policy"
                         components="[group:example.Content,group:example.Content Form,group:example.Structure]">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_81509180657000>
                 </responsivegrid>
             </components>

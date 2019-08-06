@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="dda705f8-75f8-4987-b8ad-a01663989505">
+    jcr:uuid="d0d9676e-14da-4e19-aa34-103b9abf38cb">
     <jcr:content
+        cq:name="boosted_skateboard.jpg"
+        cq:parentPath="/content/dam/example"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-07-25T09:56:18.929-04:00"
+        jcr:lastModified="{Date}2019-08-06T14:03:57.556-04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -23,6 +26,9 @@
             dam:sha1="78fc34f67a7b608ba9a9a2b46b9567a215046b6f"
             dam:size="{Long}76754"
             dc:format="image/jpeg"
+            dc:modified="{Date}2019-08-06T14:03:57.556-04:00"
+            jcr:lastModified="{Date}2019-08-06T14:03:57.555-04:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}720"

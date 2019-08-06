@@ -1,41 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="a3d038b8-a16a-4ffc-a5f0-2a75de3b08f0">
-    <jcr:content
-        dam:assetState="processed"
-        jcr:lastModified="{Date}2019-07-25T09:56:22.901-04:00"
-        jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
-        <metadata
-            dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2019-07-25T09:56:22.418-04:00"
-            dam:Fileformat="JPEG"
-            dam:MIMEtype="image/jpeg"
-            dam:Numberofimages="{Long}1"
-            dam:Numberoftextualcomments="{Long}0"
-            dam:Physicalheightindpi="{Long}240"
-            dam:Physicalheightininches="{Decimal}5.691666603088379"
-            dam:Physicalwidthindpi="{Long}240"
-            dam:Physicalwidthininches="{Decimal}8.533333778381348"
-            dam:Progressive="no"
-            dam:sha1="c6d0b11296353bf24102f4457cb6d4b8b40fadb9"
-            dam:size="{Long}1147093"
-            dc:format="image/jpeg"
-            jcr:mixinTypes="[cq:Taggable]"
-            jcr:primaryType="nt:unstructured"
-            tiff:ImageLength="{Long}1366"
-            tiff:ImageWidth="{Long}2048"/>
-        <related jcr:primaryType="nt:unstructured"/>
-        <usages
-            dam:score="{Long}1"
-            jcr:primaryType="nt:unstructured"
-            usedBy="[aem]">
-            <aem
-                jcr:primaryType="nt:unstructured"
-                count="{Long}1"
-                lastUsed="{Date}2019-07-25T10:04:52.362-04:00"/>
-        </usages>
-    </jcr:content>
-</jcr:root>
+    jcr:uuid="d0964b5b-cd13-4db5-91a9-a649765092fe"/>
