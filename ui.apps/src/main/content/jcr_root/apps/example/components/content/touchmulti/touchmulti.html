@@ -1,0 +1,23 @@
+Click here to configure COOL Multi Field User Menu
+<div
+    data-sly-use.multiItems="com.htl.community.coral.core.models.Multifield">
+    <div data-sly-list.head="${multiItems.products.listChildren}">
+        <p>
+            <b>Name:</b> ${head.product}
+        </p>
+        <p>
+            <b>Path:</b> ${head.pathbr}
+        </p>
+        <p>
+            <b>Date:</b> 
+                  ${'yyyy-MM-dd HH:mm:ss.SSSXXX' @ format=head.startDate, timezone='UTC'}
+ 
+        </p>
+        <p>
+            <b>Size:</b> ${head.size}
+        </p>
+        <p>
+            <b>CHeckbox:</b> ${head.show}
+        </p>
+    </div>
+</div>

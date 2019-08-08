@@ -3,3 +3,4 @@
 js/util.js
 components/page/page.js
 components/navigation/navigation.js
+components/icongrid/icongrid.js
