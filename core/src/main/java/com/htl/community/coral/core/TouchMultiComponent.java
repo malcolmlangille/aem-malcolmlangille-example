@@ -3,15 +3,13 @@ package com.htl.community.coral.core;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.sling.commons.json.JSONObject;
+import javax.jcr.Node;
+import javax.jcr.NodeIterator;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.adobe.cq.sightly.WCMUsePojo;
-
-import javax.jcr.Node;
-import javax.jcr.Session;
-import javax.jcr.NodeIterator;
 
 public class TouchMultiComponent extends WCMUsePojo {
 
