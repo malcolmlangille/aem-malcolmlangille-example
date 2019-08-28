@@ -5,3 +5,4 @@ components/page/page.js
 components/navigation/navigation.js
 components/icongrid/icongrid.js
 components/touchmulti/touchmulti.js
+components/sample-image-multifield/sample-image-multifield.js
