@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2019-09-10T10:59:26.257-04:00"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2019-09-10T11:06:58.583-04:00"
+        cq:lastReplicated="{Date}2019-09-10T13:13:18.254-04:00"
         cq:lastReplicatedBy="admin"
         cq:lastReplicationAction="Activate"
         cq:template="/conf/example/settings/wcm/templates/landing-page-template"
