@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-07-23T15:18:27.758-04:00"
+        cq:lastModified="{Date}2019-09-10T11:00:04.775-04:00"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2019-09-10T11:06:58.583-04:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         cq:template="/conf/example/settings/wcm/templates/landing-page-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Electric Scooter"
+        jcr:uuid="56fa4f06-c3f4-42fd-93bb-5c926771e0c2"
         sling:resourceType="example/components/structure/page"
         navTitle="Scooter"
         pageTitle="Electric Scooter">
@@ -33,39 +39,39 @@
                         cq:styleIds="[1563901716960]"
                         jcr:created="{Date}2019-07-23T15:10:09.786-04:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-07-23T15:12:35.898-04:00"
+                        jcr:lastModified="{Date}2019-09-10T11:00:04.769-04:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="example/components/content/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="true"
-                        fileReference="/content/dam/example/lime_scooter.jpg"
+                        fileReference="/content/dam/lime_scooter.jpg"
                         textIsRich="true"
                         titleFromPage="true">
-                        <actions jcr:primaryType="nt:unstructured">
-                            <item0
-                                jcr:primaryType="nt:unstructured"
-                                link="/content/example/en/scooter/lime_scooter"
-                                text="Read More"/>
-                        </actions>
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="6"/>
                         </cq:responsive>
+                        <actions jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="/content/example/en/scooter/lime_scooter"
+                                text="Read More"/>
+                        </actions>
                     </teaser>
                     <teaser_1177101221
                         cq:styleIds="[1563901716960]"
                         jcr:created="{Date}2019-07-23T15:10:12.156-04:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-07-23T15:13:13.341-04:00"
+                        jcr:lastModified="{Date}2019-09-10T10:59:45.932-04:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="example/components/content/teaser"
                         actionsEnabled="true"
                         descriptionFromPage="true"
-                        fileReference="/content/dam/example/uber_scooter.jpg"
+                        fileReference="/content/dam/uber_scooter.jpg"
                         textIsRich="true"
                         titleFromPage="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
