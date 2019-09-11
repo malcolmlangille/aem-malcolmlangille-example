@@ -38,6 +38,22 @@ DispatcherLogLevel 4
       /0001  { /glob "*" /type "allow" }
       }
 
+    /cache
+      {
+      /docroot "C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs"
+      # Sets the level upto which files named ".stat" will be created
+      #/statfileslevel "0"
+      /allowAuthorized "1"
+      
+      /rules
+        {
+        /0000
+          {
+          /glob "*"
+          /type "allow"
+          }
+        }
+
 ## To monitor the filter. Set the DispatcherLogLevel to 4 (trace) in httpd.conf
 
 cd /c/Program Files (x86)/Apache Software Foundation/Apache2.2/logs
