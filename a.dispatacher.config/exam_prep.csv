@@ -1,0 +1,121 @@
+﻿Exam Preparation,
+,
+Java,"Java SE 8 JDK - 64bit, IBM J9 VM JRE 1.8.0"
+Storage & Persistance,"Tar files, Datastore, Amazon S3, Microsoft Azure Blob, MongoDB"
+Application Servers,"Quickstart (Jetty 9.4), WebSphere, Tomcat, Jboss"
+Installing AEM - Command Line Parameters,"aem-author-4502.jar, aem-publish-4503.jar, license.properties, prefix -p, command line -port"
+Primary Run Modes,"Author, Publish, cannot be changed after installation"
+Secodary Run Modes,"Suffix to folder name, config, config.author, config.publish"
+,Go to  <cq-installation-dir>/crx-quickstart/conf/sling.properties
+,"Add the following properties (below example is for author, dev)
+sling.jcrinstall.folder.name.regexp=.*/(install|config)?
+sling.run.modes=author,dev"
+,"-Dsling.run.modes=publish,prod,us"
+,java -jar cq-56-p4545.jar -r dev
+,"sampleconent, nosamplecontent"
+How to start AEM,"start ""CQ"" cmd.exe /K java -jar aem-6.5-author-4502.jar -fork -forkargs -- -Xdebug -Xrunjdwp:transport=dt_socket,address=59865,suspend=n,server=y -Xmx1024m -XX:MaxPermSize=512m -XX:-UseSplitVerifier"
+Replication,"Agents on publish, Agents on author"
+Dispatcher,"httpd.conf
+Listen 81
+LoadModule dispatcher_module  modules/disp_apache2.2.dll
+DocumentRoot ""C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs""
+<IfModule disp_apache2.c>
+    DispatcherConfig conf/dispatcher.any
+    DispatcherLog    logs/dispatcher.log 
+    DispatcherLogLevel debug
+    DispatcherNoServerHeader Off
+    DispatcherDeclineRoot Off
+    DispatcherUseProcessedURL Off
+    DispatcherPassError 0
+    #DispatcherKeepAliveTimeout 60
+</IfModule>
+
+<Directory />
+    <IfModule disp_apache2.c>
+        ModMimeUsePathInfo On
+        # enable dispatcher for ALL request. if this is too restrictive,
+        # move it to another location
+        SetHandler dispatcher-handler
+    </IfModule>
+
+    Options FollowSymLinks
+    AllowOverride None
+</Directory>"
+Cache settings,"IgnoreURLParans
+    /cache
+      {
+      /docroot ""C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs""
+      # Sets the level upto which files named "".stat"" will be created
+      #/statfileslevel ""0""
+      /allowAuthorized ""1""
+      
+      /rules
+        {
+        /0000
+          {
+          /glob ""*""
+          /type ""allow""
+          }
+        }
+*html - use to cache by file type"
+Replication Serialization Type,"Default - Agent is auto selected, Dispatcher Flush - Agent is used for flushing the dispatcher cache"
+,"Triggers
+Ignore default - If checked, agent is excluded from normal replication, i.e. will not be used if a content author issues a replication action.
+On Modification - If checked, agent will auto-replicate if content is modified.
+On Distribute - If checked, the agent will auto-replicate when content marked for distribution is modified.
+On-/OffTime reached - If checked, agent will auto-replicate if a page passes an on-/offtime boundary
+On Receive - If checked, agent will chain replicate whenever receiving replication events.
+No Status Update - If checked, agent will not force a replication status update.
+No Versioning - If checked, agent will not force versioning of activated pages."
+Agent User ID,Used to limit replication and increase security
+vhost,"Listen 80
+<VirtualHost *:80>
+    DocumentRoot ""/www/example1""
+    ServerName www.example.com
+
+    # Other directives here
+</VirtualHost>"
+Dispatcher,"request filtering - dispatcher.any - /0002 { /type ""deny""  /url ""/content/*"" }"
+,Load balancing /renders - balanced among renders (Reverse Proxy)
+OSGI configuration,"Regular - required, factory - created by user and can be removed"
+Sling logging configuration,http://localhost:4502/system/console/slinglog
+ACL,"http://localhost:4502/useradmin
+Avoid user-by-user, groups are better, use allow statement, update defaults on installation for security"
+Filevault,"checkout: vlt --credentials admin:admin co --force http://localhost:4502 /crx
+add: vlt add apps/weretail/components/content/articleslist/articlelist
+checkin: vlt ci apps/weretail/components/content/articlelist/articlelist"
+Root Mapping,"http://localhost:8080/system/console/configMgr
+Day CQ Root Mapping
+Target Path:/content/example/en.html"
+AEM Dependencies,
+Maven,"autoinstallpackage, autoinstallbundle"
+Profiles,"# install on integration test author
+$ mvn -PautoInstallPackage -PintegrationServer install
+ 
+# install on integration test publisher
+$ mvn -PautoInstallPackagePublish -PintegrationServer install
+
+myproject/pom.xml
+<profiles>
+    <profile>
+        <id>integrationServer</id>
+        <properties>
+            <crx.host>dev-author.intranet</crx.host>
+            <crx.port>5502</crx.port>
+            <publish.crx.host>dev-publish.intranet</publish.crx.host>
+            <publish.crx.port>5503</publish.crx.port>
+        </properties>
+    </profile>
+</profiles>"
+Custom Components,Dialogs (Touch UI / Design)
+Every HTL Tag,"Looping, Conditional, IF statements"
+Template,"Editable Template, Template Type, Link to Page Componenet, Libs page component, JSP Based"
+Sling Model,"Expose sling model, Map HTL to sling model"
+Libraries,"Clent libraries, embed, allow proxy, private libs"
+Extending AEM,How to extend AEM components
+Sling resource,"type, hide properties from parent"
+OSGI services,Building OSGI services
+,"Servlets, listeners, polling"
+,Services vs components
+Backend code,
+Configuring felix web console,
