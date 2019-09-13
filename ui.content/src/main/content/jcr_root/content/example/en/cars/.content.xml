@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:lastModified="{Date}2019-09-10T11:34:10.977-04:00"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2019-09-10T13:13:18.254-04:00"
+        cq:lastReplicated="{Date}2019-09-10T13:24:26.298-04:00"
         cq:lastReplicatedBy="admin"
         cq:lastReplicationAction="Activate"
         cq:template="/conf/example/settings/wcm/templates/landing-page-template"
@@ -121,4 +122,5 @@
     <e-tron/>
     <Leaf/>
     <tesla/>
+    <rep:policy/>
 </jcr:root>

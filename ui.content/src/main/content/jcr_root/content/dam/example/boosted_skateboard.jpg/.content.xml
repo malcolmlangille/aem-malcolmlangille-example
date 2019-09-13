@@ -8,7 +8,7 @@
         cq:name="boosted_skateboard.jpg"
         cq:parentPath="/content/dam/example"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2019-09-10T08:41:02.811-04:00"
+        jcr:lastModified="{Date}2019-09-10T13:32:17.233-04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -27,7 +27,7 @@
             dam:size="{Long}76754"
             dc:format="image/jpeg"
             dc:modified="{Date}2019-08-06T14:03:57.556-04:00"
-            jcr:lastModified="{Date}2019-09-10T08:41:02.810-04:00"
+            jcr:lastModified="{Date}2019-09-10T13:32:17.233-04:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

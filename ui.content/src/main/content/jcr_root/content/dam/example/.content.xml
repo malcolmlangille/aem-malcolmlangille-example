@@ -4,9 +4,7 @@
     <jcr:content
         dam:noThumbnail="{Boolean}true"
         jcr:primaryType="nt:unstructured"
-        jcr:title="Example Site">
-        <folderThumbnail/>
-    </jcr:content>
+        jcr:title="Example Site"/>
     <asset.jpg/>
     <boosted_skateboard.jpg/>
     <electric_bike.jpg/>

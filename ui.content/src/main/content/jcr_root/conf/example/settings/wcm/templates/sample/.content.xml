@@ -2,14 +2,13 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2019-09-10T13:11:22.609-04:00"
+        cq:lastModified="{Date}2019-09-12T10:27:26.460-04:00"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2019-09-10T13:23:19.216-04:00"
+        cq:lastReplicated="{Date}2019-09-12T13:22:32.996-04:00"
         cq:lastReplicatedBy="admin"
         cq:lastReplicationAction="Activate"
         cq:templateType="/conf/example/settings/wcm/template-types/empty-page"
-        jcr:description="Article Page Template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Article Page Template"
+        jcr:title="Sample"
         status="enabled"/>
 </jcr:root>

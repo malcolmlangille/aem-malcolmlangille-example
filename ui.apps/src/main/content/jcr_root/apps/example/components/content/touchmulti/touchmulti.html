@@ -1,23 +1,86 @@
-Click here to configure COOL Multi Field User Menu
+<h2>A Sample Page of all HTL Commands</h2>
+
+<!--/* An HTL Comment */-->
+<!-- An HTML Comment -->
+<!--/* 
+<p class="${properties.class}">some text</p>
+If the value of the class property happens to be empty, the HTML Template Language will automatically remove the entire class attribute from the output.
+ */-->
+
+<h3>Automatic Context-Aware Escaping</h3>
+<p data-sly-use.logic="logic.js">
+    <a href="${logic.link}" title="${logic.title}">
+        ${logic.text}
+    </a>
+</p>
+
 <div
-    data-sly-use.multiItems="com.htl.community.coral.core.models.Multifield">
-    <div data-sly-list.head="${multiItems.products.listChildren}">
-        <p>
-            <b>Name:</b> ${head.product}
-        </p>
-        <p>
-            <b>Path:</b> ${head.pathbr}
-        </p>
-        <p>
-            <b>Date:</b> 
-                  ${'yyyy-MM-dd HH:mm:ss.SSSXXX' @ format=head.startDate, timezone='UTC'}
- 
-        </p>
-        <p>
-            <b>Size:</b> ${head.size}
-        </p>
-        <p>
-            <b>CHeckbox:</b> ${head.show}
-        </p>
-    </div>
+	data-sly-use.byline="com.malcolmlangille.aem.examples.example.core.components.Byline"
+	data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
+	data-sly-test.hasContent="${!byline.empty}" class="cmp-byline">
+	
+	<h3>Get values from backend Byline component code if byline values are not empty</h3>
+	<div>Byline Name:${byline.name}</div>
+	<div>Byline Occupations:${byline.occupations @join=','}</div>
 </div>
+
+<dl>
+    <dt>Display Page Properties</dt>
+    <dd>Title: ${pageProperties.jcr:title}</dd>
+    <dd>Name: ${pageProperties.name}</dd>
+    <dd>description: ${pageProperties.jcr:description}</dd>
+    <dd>createdBy: ${pageProperties.jcr:createdBy}</dd>
+    <dd>primaryType: ${pageProperties.jcr:primaryType}</dd>
+</dl>
+
+<dl>
+    <dt>Display Current Page Properties</dt>
+    <dd>Title: ${currentPage.jcr:title}</dd>
+    <dd>Name: ${currentPage.name}</dd>
+    <dd>description: ${currentPage.jcr:description}</dd>
+    <dd>createdBy: ${currentPage.jcr:createdBy}</dd>
+    <dd>primaryType: ${currentPage.jcr:primaryType}</dd>
+</dl>
+
+List currentPage
+<table><tr data-sly-list="${currentPage.listChildren}"><td>
+<dl>
+    <dt>index: ${itemList.index}</dt>
+    <dd>title: ${item.title}</dd>
+    <dd>createdBy: ${item.jcr:createdBy}</dd>
+    <dd>primaryType: ${item.jcr:primaryType}</dd>
+</dl></td></tr></table>
+List properties
+<table><tr data-sly-list="${properties}"><td>
+<dl>
+    <dt>index: ${itemList.index}</dt>
+    <dd>title: ${item.title}</dd>
+    <dd>name: ${item.name}</dd>
+    <dd>value: ${item.value}</dd>
+    <dd>createdBy: ${item.jcr:createdBy}</dd>
+    <dd>primaryType: ${item.jcr:primaryType}</dd>
+</dl></td></tr></table>
+List Page Properties
+<table><tr data-sly-list="${pageProperties}"><td>
+<dl>
+    <dt>index: ${itemList.index}</dt>
+    <dd>title: ${item.title}</dd>
+    <dd>name: ${item.name}</dd>
+    <dd>value: ${item.value}</dd>
+    <dd>createdBy: ${item.jcr:createdBy}</dd>
+    <dd>primaryType: ${item.jcr:primaryType}</dd>
+</dl></td></tr></table>
+Repeat - Page Properties
+<table><tr><td data-sly-repeat.item="${pageProperties}">
+<dl>
+    <dt>index: ${itemList.index}</dt>
+    <dd>title: ${item.title}</dd>
+    <dd>name: ${item.name}</dd>
+    <dd>value: ${item.value}</dd>
+    <dd>createdBy: ${item.jcr:createdBy}</dd>
+    <dd>primaryType: ${item.jcr:primaryType}</dd>
+</dl></td></tr></table>
+
+<sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"></sly>
+
+
