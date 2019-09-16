@@ -14,16 +14,17 @@ If the value of the class property happens to be empty, the HTML Template Langua
     </a>
 </p>
 
+
+<h3>Display - Custom Object - Byline Name and Occupations</h3>
 <div
 	data-sly-use.byline="com.malcolmlangille.aem.examples.example.core.components.Byline"
 	data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
 	data-sly-test.hasContent="${!byline.empty}" class="cmp-byline">
-	
-	<h3>Get values from backend Byline component code if byline values are not empty</h3>
 	<div>Byline Name:${byline.name}</div>
 	<div>Byline Occupations:${byline.occupations @join=','}</div>
 </div>
 
+<h3>Display - Page Properties</h3>
 <dl>
     <dt>Display Page Properties</dt>
     <dd>Title: ${pageProperties.jcr:title}</dd>
@@ -33,8 +34,8 @@ If the value of the class property happens to be empty, the HTML Template Langua
     <dd>primaryType: ${pageProperties.jcr:primaryType}</dd>
 </dl>
 
+<h3>Display - Current Page Properties</h3>
 <dl>
-    <dt>Display Current Page Properties</dt>
     <dd>Title: ${currentPage.jcr:title}</dd>
     <dd>Name: ${currentPage.name}</dd>
     <dd>description: ${currentPage.jcr:description}</dd>
@@ -42,7 +43,7 @@ If the value of the class property happens to be empty, the HTML Template Langua
     <dd>primaryType: ${currentPage.jcr:primaryType}</dd>
 </dl>
 
-List currentPage
+<h3>List - Subpages and Properties</h3>
 <table><tr data-sly-list="${currentPage.listChildren}"><td>
 <dl>
     <dt>index: ${itemList.index}</dt>
@@ -50,7 +51,8 @@ List currentPage
     <dd>createdBy: ${item.jcr:createdBy}</dd>
     <dd>primaryType: ${item.jcr:primaryType}</dd>
 </dl></td></tr></table>
-List properties
+
+<h3>List - Properties</h3>
 <table><tr data-sly-list="${properties}"><td>
 <dl>
     <dt>index: ${itemList.index}</dt>
@@ -60,17 +62,8 @@ List properties
     <dd>createdBy: ${item.jcr:createdBy}</dd>
     <dd>primaryType: ${item.jcr:primaryType}</dd>
 </dl></td></tr></table>
-List Page Properties
-<table><tr data-sly-list="${pageProperties}"><td>
-<dl>
-    <dt>index: ${itemList.index}</dt>
-    <dd>title: ${item.title}</dd>
-    <dd>name: ${item.name}</dd>
-    <dd>value: ${item.value}</dd>
-    <dd>createdBy: ${item.jcr:createdBy}</dd>
-    <dd>primaryType: ${item.jcr:primaryType}</dd>
-</dl></td></tr></table>
-Repeat - Page Properties
+
+<h3>Repeat - Page Properties</h3>
 <table><tr><td data-sly-repeat.item="${pageProperties}">
 <dl>
     <dt>index: ${itemList.index}</dt>
